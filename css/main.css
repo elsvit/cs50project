@@ -1,0 +1,524 @@
+
+body {
+	font-family: RobotoRegular, Arial, sans-serif;
+	font-size: 12px;
+	background: #ddd;
+	margin: 0;
+}
+.topHeader {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	display: block;
+	/* background-color: rgb(67,72,76); */
+
+}
+.header_topline {
+	padding-left: 0px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	background-color: rgba(67,72,76,0.9);
+	color: #fff;
+	z-index: 999;
+}
+.header_topline a {
+	color: #fff;
+}
+.top_links {
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	z-index: 10;
+	margin-left: 10px;
+
+}
+.top_links a {
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #000; 
+}
+.top_links a:hover {
+	text-decoration: underline;
+}
+
+.top_mid {
+	display: block;
+}
+.top_mid_href {
+	position: absolute;
+	left :44%;
+	z-index: 10;
+/
+}
+.top_mid a {
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #000; 
+}
+.top_mid a:hover {
+	text-decoration: underline;
+}
+
+.soc_buttons {
+	display: block;
+	float: right;
+	background-color: rgb(82,86,90);
+	color: grey;
+	margin-right: 10px; 
+	margin-top: 0px;
+}
+.soc_buttons a {
+	font-size: 16px;
+	margin-left: 8px;
+	text-shadow: 1px 1px 0 #000, 2px 2px 2px #ddd;
+}
+.soc_buttons a:hover {
+	color: white;
+}
+/*middle*/
+.middle {
+	padding: 20px 20px 20px 20px;
+}
+.middle img {
+	    
+}
+.projectPage{
+	margin: 50px auto;
+	width: 400px;
+	vertical-align: middle;
+}
+
+/*user*/
+.loadView {
+	font-size: .8em;
+	color: grey;
+	margin-top: 25px;
+}
+.photoView {
+	display: block;
+	width: 400px;
+	margin: 0px auto;
+	padding-bottom: 1px;
+	color: #aaa;
+	font-size: .9em;
+}
+.atopImgLine {
+	display: inline-block;
+	margin-top: 0px;
+
+}
+
+.atopImgLeft {
+	margin-top: 15px;
+	margin-bottom: -12px;
+	display: inline-block;
+	width: 300px;
+}
+.atopImgUserName{
+	display: block;
+	float: left;
+	padding-right: 10px; 
+}
+.atopImgPhotoName{
+	display: block;
+	float: left;
+	padding-right: 10px; 
+}
+.atopImgPhotoName a{
+	color: #aaa;
+}
+.atopImgPhotoName a:hover {
+	color: #333;
+	cursor: pointer;
+}
+.atopImgPhotoDate{
+	display: block;
+	float: left;
+	padding-right: 10px; 
+}
+.atopImgRight {
+	margin-top: 15px;
+	margin-bottom: -10px;
+	display: inline-block;
+	width: 95px;
+	float: right;
+}
+.extendPhotoBtn a{
+	color: #aaa;
+}
+.extendPhotoBtn a:hover {
+	color: #333;
+	cursor: pointer;
+}
+
+._topImg {
+	display: inline-block;
+}
+.topImgLeft {
+	margin-top: 31px;
+	margin-bottom: -10px;
+	display: block;
+	width: 120px;
+	float: left;
+	position: absolute;
+	left: 0;
+	right: -20px;
+	top: -34px;
+}
+.topImgLeft:hover {
+	opacity: 1;
+}
+
+.imgRenameDelete{
+	display: none;
+	z-index: 5;
+	margin-top: 3px;
+	float: left;
+	opacity: 0.8;
+	line-height: 0.8em; 
+	width: 100px;
+	color: #222;
+	background-color: rgba(255,255,255,.9);
+	line-height: 1.5;
+}
+.imgRenameDeleteInput{
+border-bottom: 1px dashed #888;
+margin-bottom: 3px;
+}
+
+.imgRename a {
+	color: blue;
+}
+.imgDeleteBtn a {
+	color: blue;
+	margin-bottom: 3px;
+}
+.cancelImgRenameDelete a {
+	color: blue;
+}
+
+.imgRename a:hover, .imgDeleteBtn a:hover, .cancelImgRenameDelete a:hover {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.topImgRight {
+	margin-top: 31px;
+	margin-bottom: -10px;
+	display: block;
+	width: 90px;
+	float: right;
+	position: absolute;
+	right: -20px;
+	top: -34px;	
+}
+
+.topImgRight:hover {
+	opacity: 1;
+}
+
+.extendPhoto{
+	display: none;
+	z-index: 5;
+	margin-top: 3px;
+	position: absolute;
+	right: 20px;
+	opacity: 0.8;
+	line-height: 0.8em; 
+	width: 100px;
+	color: #222;
+	background-color: rgba(255,255,255,.9);
+}
+.extendPhoto input {
+	position: relative;
+	bottom: -2px;
+	right: -2px;
+}
+.extendPhoto:hover {
+	z-index: 10;
+	opacity: .8;
+	color: #111; 
+	background-color: rgba(255,255,255,1);
+}
+
+.saveExtendPhoto {
+	display: block;
+	float: left;
+	margin: 3px;
+}
+.cancelExtendPhoto {
+	display: block;
+	float: right;
+	margin: 3px;
+}
+.saveExtendPhoto a {
+	color: blue;
+}
+.cancelExtendPhoto a {
+	color: blue;
+}
+
+.saveExtendPhoto a:hover, .cancelExtendPhoto a:hover {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* IMG VIEW */
+.userImg {
+	display: block;
+	z-index: 3;
+	position: relative;
+	box-shadow: 2px 3px 10px #333;
+}
+
+.userImg:hover{
+	box-shadow: 3px 4px 15px #222;
+}
+
+.commentImg {
+	display: block;
+	margin: -10px auto;
+	margin-bottom: 15px;
+	width: 400px;
+	line-height: 1.2;
+	border-bottom: 1px dashed #888;
+}
+.commentTop {
+	font-size: 0.9em;
+	font-style: italic;
+	color: #333;
+	line-height: .5;
+	margin-top: 5px;
+	margin-bottom: -5px;
+} 
+.commentText p: {
+	margin-top: -5px;
+	line-height: .5;
+} 
+.commText{
+	display: none;
+}
+.commentBtn {
+	display: block;
+}
+
+.commText, .commentBtn {
+	margin: 0px auto;
+	margin-top: -6px;
+	width: 400px;
+	color: rgba(40,40,40,.9);
+	border-color: rgb(50,50,50);
+	font-size: 0.9em;
+}
+.commText button, .commentBtn button {
+}
+
+.commText textarea {
+	color: rgb(10,10,10);
+	font-size: 1.2em;
+	margin-bottom: -10px;
+	width: 100%;
+}
+
+.commentBtn button:hover, .commText button:hover {
+	color: black;
+	opacity: 1;
+}
+
+/*caontacts page*/
+.contacts{
+	display: block;
+	margin: 50px;
+}
+/*END caontacts page*/
+
+/* project page */
+.mainMiddle{
+	background: url(/template/img/photograph4-8b.png);
+	font: 1em Tahoma, Arial ;
+}
+
+#wrapper{
+	margin: 150px;
+	perspective: 900px;
+}
+
+#cube{
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+	height: 400px;
+	-webkit-transform-origin: 50% 50% -200px;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform: rotate3d(1,1,1,50deg);
+	transform-origin: 50% 50% -200px;
+	transform-style: preserve-3d;
+	transform: rotate3d(1,1,1,50deg);
+}
+
+.side{
+	width: 400px;
+	height: 400px;
+	background: rgba(0,0,0,.3);
+	background: -webkit-radial-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5));
+	background: radial-gradient(rgba(0,0,0,.1), rgba(0,0,0,.5));
+	position: absolute;
+	border: 0px solid  #fff;
+	border-radius: 5px;
+	font-size: 5em;
+	color: #fff;
+	line-height: 300px;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4) ;
+	box-shadow: 0 0 6px rgba(0,0,0,.5);
+	-webkit-transform-origin: 50% 50% -200px;
+	transform-origin: 50% 50% -200px;
+}
+
+#side1{
+	transform: rotateY(0deg);
+}
+
+#side2{
+	-webkit-transform: rotateY(90deg);
+	transform: rotateY(90deg);
+}
+#side3{
+	-webkit-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+}
+#side4{
+	-webkit-transform: rotateX(90deg);
+	transform: rotateX(90deg);
+}
+#side5{
+	-webkit-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+}
+#side6{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+/* END project page */
+
+.settings h2{
+	margin-top: 18px;
+}
+.settingsBlocks{
+	margin-top: -20px;
+	text-align: center;
+	display: inline-block;
+
+}
+.userData{
+	display: block;
+	padding: 1px;
+	float: left;
+	width: 180px;
+}
+.userGroupsBlock{
+	display: block;
+	float: left;
+}
+
+.userGroups{
+
+padding: 5px;
+ 	float: left; 
+	width: 200px;
+}
+
+
+/* Add new users group */
+.inpNewGroup{
+	display: none;
+	margin: 2px auto;
+	/* margin-top: -6px; */
+	color: rgba(20,20,20,.9);
+	border-color: rgb(50,50,50);
+	font-size: 1em;
+}
+.inpNameNewGroup .inpDescriptionNewGroup{
+	margin: 0;
+}
+.btnAddNewGroupAndCancel{
+	margin: 0;
+	color: rgb(100,100,100);
+}
+
+.plusMemberOfGroup{
+}
+.btnPlusMember{
+	margin-left: 10px;
+	float: left;
+}
+.whiteBG{
+	margin-left: 10px;
+    background: white;
+    border: 2px;
+    font-size: 1.1em;
+    padding: 2px;
+    text-align: center; /* Выравнивание по центру */
+}
+.allUsersBlock{
+	display: none;
+	padding: 5px;
+	float: left;
+}
+.addNewMemberBlock{
+
+	margin: 0px auto;
+	margin-top: -6px;
+	color: rgba(20,20,20,.9);
+	border-color: rgb(50,50,50);
+	font-size: 1em;
+} 
+#groupInallUsersBlock{
+	color: red;
+}
+
+/*FOOTER /////////////////*/
+.footer {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.footer_botline {
+	background-color: rgba(67,72,76,0.9); 
+	padding: 5px;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+  	width: 100%;
+  	height: 25px;
+  	margin: 0px auto;
+  	display: inline-block;
+  	z-index: 999; 
+}	
+.footer_botline select {
+	color: #43484C;
+	font-size: 10px;
+	margin: 0px auto; 
+	padding: 0; 
+	vertical-align: top;
+}
+.footer_botline a {
+	color: #fff;
+}
+.bot_links {
+	margin-top: -2px; 
+}
+.bot_links td {
+	vertical-align: top;
+	font-size: 11px;
+
+}
+.bot_links a {
+	margin-top: 0px; 
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #000;
+}
+.bot_links a:hover {
+	text-decoration: underline;
+}
+
